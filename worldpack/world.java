@@ -1,6 +1,8 @@
 package worldpack;
-import hellopack.*;
+
+import hellopack.hello;
 import abcpack.*;
+
 public class world {
     public static void main(String args[]) {
         hello.ok obj = new hello.ok();
@@ -9,10 +11,10 @@ public class world {
     }
 }
 // public class world {
-//     public static void main(String args[]) {
-//         Abc obj = new Abc();
-//         obj.man3();
-//     }
+// public static void main(String args[]) {
+// Abc obj = new Abc();
+// obj.man3();
+// }
 // }
 
 // class cc khong public nen khong dung duoc o day
