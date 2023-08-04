@@ -22,7 +22,7 @@ public class Abstract extends Shape {
     }
 
     public static void main(String args[]) {
-        Shape s = new Abstract();
+        Shape s = new Abstract(); // khong bi loi compilation error vi abstract la lop con cua shape
         s.draw();
     }
 }
